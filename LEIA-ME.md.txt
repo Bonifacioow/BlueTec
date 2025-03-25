@@ -1,36 +1,103 @@
-# Plataforma de Cursos para Desenvolvedores
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Cursos para Desenvolvedores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Plataforma de Cursos para Desenvolvedores</h1>
+            <nav>
+                <ul>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#informatica-basica">Informática Básica</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#certificacao">Certificação e Pontuação</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-Este repositório contém o código-fonte de uma plataforma de cursos online voltada para desenvolvedores, com foco em programação, inteligência artificial e desenvolvimento de software. A plataforma inclui:
+    <main>
+        <section id="cursos">
+            <h2>Cursos em Destaque</h2>
+            <div class="curso-lista">
+                <article class="curso">
+                    <h3>Introdução à Programação</h3>
+                    <p>Aprenda os fundamentos de programação e crie suas primeiras aplicações.</p>
+                </article>
 
-- **Cursos de Programação e IA:** Ofertas de cursos variados.
-- **Aprendizado Gamificado:** Conquiste pontos e desbloqueie conquistas conforme avança nos cursos.
-- **Certificação:** Receba certificados digitais ao concluir cursos.
+                <article class="curso">
+                    <h3>Inteligência Artificial Aplicada</h3>
+                    <p>Desvende os segredos da IA e desenvolva soluções inteligentes.</p>
+                </article>
 
-## Arquivos no Projeto
+                <article class="curso">
+                    <h3>Desenvolvimento Web Avançado</h3>
+                    <p>Domine as técnicas mais modernas de desenvolvimento para web.</p>
+                </article>
+            </div>
+        </section>
 
-- **index.html:** Estrutura principal do site.
-- **style.css:** Estilo e layout.
-- **script.js:** Base para interações JavaScript.
-- **README.md:** Documentação do projeto.
+        <section id="informatica-basica">
+            <h2>Cursos de Informática Básica</h2>
+            <div class="curso-lista">
+                <article class="curso">
+                    <h3>Familiarização com Computadores e Softwares</h3>
+                    <p>Aprenda como funcionam os computadores e os principais softwares utilizados no dia a dia.</p>
+                </article>
 
-## Como Executar Localmente
+                <article class="curso">
+                    <h3>Uso de Teclado, Mouse e Touchpad</h3>
+                    <p>Entenda como utilizar periféricos como teclado, mouse e touchpad com eficiência.</p>
+                </article>
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/plataforma-cursos.git
-   ```
-2. Abra o arquivo `index.html` em seu navegador.
+                <article class="curso">
+                    <h3>Navegação na Internet e Uso de Aplicativos</h3>
+                    <p>Aprenda a navegar com segurança na internet e utilizar aplicativos essenciais.</p>
+                </article>
 
-## Melhorias Futuras
+                <article class="curso">
+                    <h3>Diferenciação entre Hardware e Software</h3>
+                    <p>Entenda a diferença entre componentes físicos (hardware) e programas (software).</p>
+                </article>
+            </div>
+        </section>
 
-- Implementação de login e autenticação.
-- Sistema de ranking e recompensas gamificadas.
-- Área para certificados digitais.
+        <section id="login">
+            <h2>Login</h2>
+            <form action="#" method="post">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required><br>
 
-## Contribuição
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required><br>
 
-Contribuições são bem-vindas! Para contribuir, abra uma issue ou envie um pull request.
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
 
----
+        <section id="certificacao">
+            <h2>Certificação e Pontuação</h2>
+            <p>Conquiste pontos e acumule horas de estudo para desbloquear certificados digitais.</p>
+            <p>Total de horas acumuladas: <span id="horas-estudo">0</span> horas</p>
+            <p>Total de pontos acumulados: <span id="pontos-estudo">0</span> pontos</p>
+        </section>
 
-**Copyright © 2025** Plataforma de Cursos para Desenvolvedores.
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Para mais informações, entre em contato pelo e-mail: contato@plataformacursos.dev</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Plataforma de Cursos para Desenvolvedores. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
