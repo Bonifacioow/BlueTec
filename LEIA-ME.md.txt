@@ -1,0 +1,36 @@
+# Plataforma de Cursos para Desenvolvedores
+
+Este repositório contém o código-fonte de uma plataforma de cursos online voltada para desenvolvedores, com foco em programação, inteligência artificial e desenvolvimento de software. A plataforma inclui:
+
+- **Cursos de Programação e IA:** Ofertas de cursos variados.
+- **Aprendizado Gamificado:** Conquiste pontos e desbloqueie conquistas conforme avança nos cursos.
+- **Certificação:** Receba certificados digitais ao concluir cursos.
+
+## Arquivos no Projeto
+
+- **index.html:** Estrutura principal do site.
+- **style.css:** Estilo e layout.
+- **script.js:** Base para interações JavaScript.
+- **README.md:** Documentação do projeto.
+
+## Como Executar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/plataforma-cursos.git
+   ```
+2. Abra o arquivo `index.html` em seu navegador.
+
+## Melhorias Futuras
+
+- Implementação de login e autenticação.
+- Sistema de ranking e recompensas gamificadas.
+- Área para certificados digitais.
+
+## Contribuição
+
+Contribuições são bem-vindas! Para contribuir, abra uma issue ou envie um pull request.
+
+---
+
+**Copyright © 2025** Plataforma de Cursos para Desenvolvedores.
